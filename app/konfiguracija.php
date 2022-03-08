@@ -5,7 +5,7 @@ if($_SERVER['SERVER_ADDR']==='178.218.165.37'){
     $dev=true;
     $baza=[
         'server'=>'polaznik25.edunova.hr',
-        'baza'=>'leta_zavrsnirad',
+        'baza'=>'KZO',
         'korisnik'=>'leta_korisnik',
         'lozinka'=>'GPVJWr.]Lyw2'
     ];
