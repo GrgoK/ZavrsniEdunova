@@ -4,7 +4,7 @@ class LoginController extends Controller
 {
     public function index()
     {
-        $this->loginView('Popunite email i lozinku','');
+        $this->loginView('Popunite email i lozinku -> grgo0203@gmail.com -> grgo','');
     }
 
     public function autoriziraj()
