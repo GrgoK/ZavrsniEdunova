@@ -1,16 +1,17 @@
 <?php
 
-if($_SERVER['SERVER_ADDR']==='178.218.165.37'){
-    $url='https://polaznik25.edunova.hr/';
+if($_SERVER['SERVER_ADDR']==='127.0.0.1'){
+    $url='http://ZavrsniEdunova.xyz/';
     $dev=true;
     $baza=[
-        'server'=>'polaznik25.edunova.hr',
+        'server'=>'localhost',
         'baza'=>'KZO',
-        'korisnik'=>'leta_korisnik',
-        'lozinka'=>'GPVJWr.]Lyw2'
+        'korisnik'=>'edunova',
+        'lozinka'=>'edunova'
     ];
+
 }else{
-    $url='https://polaznik25.edunova.hr/';
+    $url='https://polaznik42.edunova.hr/';
     $dev=false;
     $baza=[
         'server'=>'localhost',
