@@ -2,7 +2,7 @@ drop database if exists KZO;
 create database KZO character set utf8;
 use KZO;
 
-alter database leta_zavrsnirad character set utf8mb4;
+alter database minerva_zavrsni character set utf8mb4;
 
 create table operater(
     sifra int not null primary key auto_increment,
