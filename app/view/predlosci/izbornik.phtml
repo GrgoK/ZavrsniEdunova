@@ -26,9 +26,9 @@
     <ul class="menu">
       <li>
         <?php if(App::autoriziran()):?>
-          <a href="<?=App::config('url')?>login/odjava">odjavi <?php echo $_SESSION['autoriziran']->ime ?></a>
+          <a href="<?=App::config('url')?>login/odjava"class="button">odjavi <?php echo $_SESSION['autoriziran']->ime ?></a>
           <?php else:?>
-            <a href="<?=App::config('url')?>login/index">Login</a>
+            <a href="<?=App::config('url')?>login/index"class="button">Login</a>
             <?php endif;?>
       </li>
       
